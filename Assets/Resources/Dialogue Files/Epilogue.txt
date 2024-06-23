@@ -1,0 +1,86 @@
+﻿CreateCharacter(约翰), CreateCharacter(a), CreateCharacter(B), CreateCharacter(玛莎), CreateCharacter(妮娜), CreateCharacter(托尼)
+PlaySong("Kevin MacLeod - Relent" -v 0.5)
+Show(B)
+代表 "哎呀哎呀，恭喜你啊托尼，这次行动很成功，数据也都接收到了！"
+SetLayerMedia(background bg60)
+Hide(B)
+Show(托尼)
+托尼 "您说笑了，能为帝国做贡献比什么都好。"
+Hide(托尼)
+"托尼与一名帝国议会代表坐在车里，金黄色的香槟与气泡一起沿着夜光蒸腾。"
+SetLayerMedia(background bg61)
+Show(B)
+代表 "别谦虚了，这次‘真赝计划’很成功，新式武器估计不久就能研究出来。但要是能在多几个样本，速度就能更快！"
+Hide(B)
+Show(托尼)
+托尼 "代表，我……"
+Hide(托尼)
+Show(B)
+代表 "哎呀，我知道的。这次行动你付出了很多，心理也有很大压力。你能做到这种程度，已经很好了。这次也会给你相应的奖赏，以后的任务，我们也会另寻他人的。"
+Hide(B)
+Show(托尼)
+托尼 "那我妻女——"
+Hide(托尼)
+Show(B)
+代表 "别急，这不正带你去找她们吗。"
+Hide(B)
+Show(托尼)
+托尼 "好的，好的。谢谢您。"
+Hide(托尼)
+"飞驰的车穿过大桥，穿过隧道，穿过山头，穿过原野。"
+SetLayerMedia(background bg59)
+Show(a)
+司机 "代表，我们到了。"
+Hide(a)
+Show(B)
+代表 "好好好，托尼，你先下去吧。"
+Hide(B)
+"代表看着托尼的背影，自己点上了一根烟，继续说道"
+SetLayerMedia(background bg62)
+Show(B)
+代表 "想当初，我还是个指挥官，现在我成了代表，你成了英雄。{a}明明脑子少了一半，和我一同参加计划，杀死了别人的妻女，自己却娶妻生女啊……你不会忘了吧，以前的自己，对不对？约翰。"
+Hide(B)
+"托尼默不作声，只是看了代表一眼，便下了车，走进眼前的地库，里面漆黑一片，伸手不见五指，什么也看不清。"
+SetLayerMedia(background bg11)
+Show(托尼)
+托尼 "爱丽丝！妮妮！我来接你们了！"
+Hide(托尼)
+"他大声呼喊，回应的却只有自己的呼喊。"
+Show(托尼)
+托尼 "爱丽丝！妮妮！"
+Hide(托尼)
+"咔达" 
+
+"那是他熟悉的声音，不久前刚刚听到的声音。"
+Show(托尼)
+托尼 "……绝对保密行动…吗。"
+Hide(托尼)
+Narrator "托尼停止了呼喊，拿出一根烟，熟练地叼在嘴里抽起来。" StopSong(),playSfx(Lighter)
+
+"嚓" 
+SetLayerMedia(background bg53)
+
+"一丝火苗在黑暗中点亮，又转瞬即逝。"
+SetLayerMedia(background bg11)
+
+"一股烟草味传来，钻入他的鼻腔。"
+
+"他第一次抽这么冲的烟，似乎下一秒就要熏倒。{a}又是一股味道，粗暴地冲进他的鼻腔，直达他的大脑。"
+
+"好浓的硝烟味。"
+Show(托尼)
+托尼 "妈的。"PlaySfx(Pistol)
+Hide(托尼),HideDB()
+[wait]SetLayerMedia(background bg60)
+[wait]SetLayerMedia(background bg11)
+
+[wait]ClearLayerMedia(background)
+wait(1)
+[wait]setdbpast()
+[wait]ClearLayerMedia(background)
+ShowDB(),PlaySong("TheLost109 - Nostalgic Place - Myuu" -v 0.5)
+Narrator "到此，“约翰”的故事就结束了。<br>这是“约翰”和“约翰”的故事。<br>作为农民的“约翰”逃离了荆棘的噩梦，来到光辉的夏日，可太阳终是吞没了夕阳。<br>作为实验的牺牲品，丧失了妻女，丧失了大脑，丧失了记忆，丧失了自我。<br>他人的大脑被粗暴的塞入他的体内，灌入不属于他的过去，在痛苦和彷徨中，他仅能依靠幻觉获得的希望，也被粉碎至渣。<br>要说有一点欣慰，那便是他在最后的自我吧。<br>面对漆黑的枪口，他用泪水和真心刨开了眼前男人的胸口。<br>眼前的另一个“约翰”的胸口。"
+"他是作为士兵的“约翰”。带着希望与发小逃离狭小的家乡，却迷失在空旷的战场。<br>家人自杀，老师死去，战友在眼前相食，他的精神愈发疯狂，直至那颗子弹，当面贯穿挚友的头颅。<br>黑色的什么缠上了他，他自称“托尼”，戴着挚友的名字生存下去，开启那疯狂的计划。<br>嘴中却被与曾经的自己以及好友都十分相像的另一个“约翰”，作为试验品的“约翰”，作为农夫的“约翰”，弱小的“约翰”，剖开了胸膛。<br>看到自己残破不堪，软弱无力的心脏。<br>最终面对自己的上司，在缥缈的烟丝之下，死在黑暗袭来的火焰。<br>明明是完全不一样的人生，内心却有着极度相似的地方，两位“约翰”，甚至连死法都一模一样。<br>是讽刺吗？还是命运。"
+"无所谓，这些都是地狱之后的故事。<br>既然如此，这条路的尽头，会是天堂吗？"
+[wait]hideui(-s 2)
+endgame()

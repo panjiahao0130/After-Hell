@@ -1,0 +1,4 @@
+repository "After-Hell@afterhell@cloud.cn"
+  path "/"
+    smartbranch "/main"         
+     

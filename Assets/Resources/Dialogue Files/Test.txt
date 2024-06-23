@@ -1,0 +1,23 @@
+"这里陪伴约翰的，只有夏夜的蝉鸣与橱窗里的电视。{a}那电视一闪一闪，四面八方传来属于帝国的喜讯。"
+SetLayerMedia(background bg18)
+"它们蛮横地钻入约翰的口腔，胸肺，食道，{a}任由他挣扎，也无非是传出两口大气，{a}来不及呼吸，就又被按回水中。"
+HideDB()
+
+StopSong()
+
+PlaySfx(Static)
+
+[wait]ClearLayerMedia(background -spd 2)
+wait(1)
+[wait]SetLayerMedia(background bg63 -spd 2)
+wait(3)
+
+setdbpast()
+
+StopSfx(Static)
+[wait]ClearLayerMedia(background -blend hurricane)
+[wait]SetLayerMedia(background bgpast)
+
+"那是战斗刚刚结束的间隙，满身是血的约翰跑到了营地旁的小溪边，他蹲在那里，双手捧着水，不断地泼洒到自己的脸上，再努力用手摩擦，那皮肤都发红破开了，但他的动作仍然没有停止。"
+
+setdbpast()
